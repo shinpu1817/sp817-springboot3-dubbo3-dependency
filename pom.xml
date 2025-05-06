@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>top.sp817.quickstart</groupId>
+
+    <artifactId>sp817-springboot3-dubbo3-dependency</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0</version>
+
+    <modules>
+        <module>_core_build_</module>
+        <module>service-core</module>
+        <module>mysql-fetch-plugin</module>
+        <module>langchain-plugin</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <package.script.version>3.2.3</package.script.version>
+        <!--==========================================-->
+        <quickstart-group-id>top.sp817.quickstart</quickstart-group-id>
+        <quickstart-version>1.0.0</quickstart-version>
+        <!--==========================================-->
+        <slf4j-api.version>2.0.16</slf4j-api.version>
+        <lombok.version>1.18.36</lombok.version>
+        <commons-lang3.version>3.17.0</commons-lang3.version>
+        <knife4j.version>4.4.0</knife4j.version>
+        <jackson.version>2.18.2</jackson.version>
+        <sa-token.version>1.42.0</sa-token.version>
+        <spring-boot.version>3.4.2</spring-boot.version>
+        <dubbo.version>3.3.4</dubbo.version>
+        <spring-context-support.version>1.0.11</spring-context-support.version>
+        <mybatis-plus.version>3.5.10.1</mybatis-plus.version>
+        <mysql-connector.version>8.0.31</mysql-connector.version>
+        <hikaricp.version>5.0.1</hikaricp.version>
+        <nacos-config.version>0.3.0-RC</nacos-config.version>
+        <kotlin-reflect.version>1.8.20</kotlin-reflect.version>
+        <spring-boot-redis.version>3.4.2</spring-boot-redis.version>
+        <jedis.version>5.2.0</jedis.version>
+        <sentinel.version>1.8.6</sentinel.version>
+        <xxl-job.version>2.4.1</xxl-job.version>
+        <langchain.version>1.0.0-beta3</langchain.version>
+        <!--==========================================-->
+        <hutool.version>5.8.8</hutool.version>
+        <pinyin4j.version>2.5.1</pinyin4j.version>
+    </properties>
+
+</project>

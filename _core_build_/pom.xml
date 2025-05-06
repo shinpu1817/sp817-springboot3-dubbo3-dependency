@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>top.sp817.quickstart</groupId>
+        <artifactId>sp817_quick_build</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>_core_build_</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>springboot-package</module>
+        <module>web-package</module>
+        <module>dubbo-package</module>
+        <module>basic-package</module>
+        <module>redis-package</module>
+        <module>sa-token-package</module>
+    </modules>
+
+</project>
