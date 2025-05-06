@@ -6,9 +6,8 @@
 
     <parent>
         <groupId>top.sp817.quickstart</groupId>
-        <artifactId>sp817_quick_build</artifactId>
+        <artifactId>sp817-springboot3-dubbo3-dependency</artifactId>
         <version>1.0.0</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>mysql-fetch-plugin</artifactId>
