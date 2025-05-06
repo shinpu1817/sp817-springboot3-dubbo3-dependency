@@ -8,6 +8,7 @@
         <groupId>top.sp817.quickstart</groupId>
         <artifactId>sp817_quick_build</artifactId>
         <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>mysql-fetch-plugin</artifactId>
